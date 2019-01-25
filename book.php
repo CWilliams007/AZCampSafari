@@ -6,7 +6,7 @@ $date = $_POST['date'];
 $adults = $_POST['adults'];
 $kids = $_POST['kids'];
 $formcontent=" From: $name \n Phone: $phone \n Date: $date \n Adults: $adults \n Kids: $kids";
-$recipient = "micahefish@gmail.com";
+$recipient = "azsafari@gmail.com";
 $subject = "Contact Form";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
